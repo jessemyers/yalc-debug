@@ -1,0 +1,15 @@
+{
+    "name": "yalc-debug",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "repository": "git@github.com:jessemyers/yalc-debug.git",
+    "author": "Jesse Myers <jesse.myers@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "prebuild": "mkdir -p dist",
+        "build": "cp package.json dist && cp -a src/index.js dist"
+    },
+    "files": [
+        "dist"
+    ]
+}
